@@ -30,7 +30,7 @@ echo ""
 sleep 3
 
 apt update
-apt install fail2ban sudo vim htop net-tools dnsutils curl tcpdump snmp apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
+apt install  sudo vim htop net-tools dnsutils curl tcpdump snmp apt-transport-https ca-certificates curl gnupg2 software-properties-common -y
 
 clear
 #### INSTALA DOCKER
