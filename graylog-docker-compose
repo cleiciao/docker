@@ -29,8 +29,8 @@ services:
   graylog:
     image: graylog/graylog:4.1
     environment:
-      - GRAYLOG_PASSWORD_SECRET=Chaeyuwa0Quai0Meik8p
-      - GRAYLOG_ROOT_PASSWORD_SHA2=a8836f1580ad300ae90a0ecd33a5afc5fe650db48fac6c258acd5e3e06367fb7
+      - GRAYLOG_PASSWORD_SECRET=sua_senha
+      - GRAYLOG_ROOT_PASSWORD_SHA2=sua_chave_sha2
       - GRAYLOG_HTTP_EXTERNAL_URI=http://0.0.0.0:9000/
       - GRAYLOG_ELASTICSEARCH_HOSTS=http://elasticsearch:9200/
     volumes:
